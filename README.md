@@ -1,1 +1,3 @@
-Ist Informatik sexy?
+# Ist Informatik sexy?
+
+Find out at: https://ist.informatik.sexy
