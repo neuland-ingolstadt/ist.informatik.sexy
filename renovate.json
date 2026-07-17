@@ -10,6 +10,13 @@
   ],
   "packageRules": [
     {
+      "description": "Allow nginx tag updates across Alpine minor versions (e.g. alpine3.24 -> alpine3.25)",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["nginx"],
+      "matchManagers": ["dockerfile"],
+      "versioning": "loose"
+    },
+    {
       "description": "Group Docker base image updates",
       "matchManagers": ["dockerfile"],
       "groupName": "docker",
