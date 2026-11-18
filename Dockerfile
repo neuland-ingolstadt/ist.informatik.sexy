@@ -1,4 +1,4 @@
-FROM nginx:1.31.8-alpine3.24
+FROM nginx:1.31.9-alpine3.24
 
 RUN rm -rf /usr/share/nginx/html/*
 COPY index.html /usr/share/nginx/html/index.html
